@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GitHubJian/koa-static-server.git"
+    "url": "git+https://github.com/GitHubJian/static-file-server.git"
   },
   "keywords": [],
   "author": "",
