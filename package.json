@@ -1,0 +1,29 @@
+{
+  "name": "static-file-server",
+  "version": "1.0.0",
+  "description": "",
+  "bin": "./bin/index.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GitHubJian/koa-static-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GitHubJian/koa-static-server/issues"
+  },
+  "homepage": "https://github.com/GitHubJian/koa-static-server#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^3.0.1",
+    "fs-extra": "^8.1.0",
+    "koa": "^2.8.1",
+    "koa-send": "^5.0.0",
+    "minimist": "^1.2.0"
+  }
+}
