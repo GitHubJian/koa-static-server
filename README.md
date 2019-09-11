@@ -8,6 +8,9 @@ npm install -g static-file-server
 #### Usage
 
 ```
-static-file-server start
+const Server = require('static-file-server')
+
+Server.start()
 
 ```
+

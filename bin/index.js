@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 
 const program = require('commander')
+const server = require('../lib')
+
 
 program.version(require('../package.json').version).usage('<command> [options]')
 
@@ -13,11 +15,10 @@ program
   .action(function(options) {
     const config = {
       folder: options.folder || process.cwd(),
-      public: options.public || '/static',
       port: options.port || '8419'
     }
 
-    require('../lib')(config)
+    server.start(config)
   })
 
 program.on('--help', function() {
